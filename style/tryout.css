@@ -1,0 +1,23 @@
+body {
+    background-image: url(../images/white-waves.png);
+    background-color: rgb(149, 237, 248);
+}
+
+h1{
+    font-size: 70px;
+    color:rgb(45,45,100);
+}
+p {
+    color: rgb(49, 49, 143)
+}
+
+.box {
+    margin:1rem;
+    padding-top: 200px;
+    padding-bottom:200px ;
+    background-image: url(../images/mrsagile_background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}

@@ -1,0 +1,53 @@
+body {
+    background-color: #DAD9DF;
+    /* background: url(../images/mrsagile_background.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-right: 10%; */
+   font-family: 'Indie Flower', cursive;
+   
+}
+.image {
+    background-image: url(../images/mrsagile_background.jpg); 
+    
+}
+a{
+    color:#33CCFF;
+} 
+
+.container {
+    margin-top:70px;
+}
+
+/* background color: DAD9DF 
+   lego color: 33CCFF
+*/
+/*
+
+.content {
+    text-align: center;
+}
+
+.nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a{
+
+    color:black;
+} 
+
+.header-note{
+    font-size: 12px;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.header{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}*/
