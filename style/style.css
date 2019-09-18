@@ -1,19 +1,17 @@
 body {
     background-color: #DAD9DF;
-    /* background: url(../images/mrsagile_background.jpg); */
-    background-size: cover;
+    background: url(../images/background//cover_original.jpg); 
+    background-size:cover;
     background-repeat: no-repeat;
-    /* margin-right: 10%; */
+    background-position: 10px 160px;
+    margin-right: 10%; 
    font-family: 'Indie Flower', cursive;
-   
+   color:#33CCFF; 
 }
 .image {
     background-image: url(../images/mrsagile_background.jpg); 
     
 }
-a{
-    color:#33CCFF;
-} 
 
 .container {
     margin-top:70px;
