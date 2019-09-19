@@ -1,32 +1,70 @@
+
+@font-face {
+    font-family: Baron Neue;
+    src: url("../fonts/Baron Neue.otf") format("opentype");
+}
+
+@font-face {
+    font-family:CooperHewitt-Light ;
+    src: url("../fonts/cooperhewitt-light_[allfont.net].ttf") format("opentype");
+}
+
 body {
     background-color: #DAD9DF;
     background: url(../images/background//cover_original.jpg); 
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: 10px 160px;
-    margin-right: 10%; 
-   font-family: 'Indie Flower', cursive;
-   color:#33CCFF; 
+/*    background-position: 10px 160px;*/
+   font-family: 'Baron Neue', cursive;
+   color: #666666; 
 }
-.image {
-    background-image: url(../images/mrsagile_background.jpg); 
-    
-}
-
-.container {
-    margin-top:70px;
-}
-
 /* background color: DAD9DF 
    lego color: 33CCFF
 */
+
 #btn_getstarted {
+    position: relative;
+    z-index: 4;
+    background-color: #33CCFF;
   text-align: left;
-  margin-left: 70px ;
-  width:300px;
-  height:80px;
+/*  margin-left: 70px ;*/
+  width:250px;
+  height:65px;
+  color:white;
+font-family:"Century Gothic" ;
+text-transform: uppercase;   
 }
 
 .btn_img {
-   margin:0 20px;
+    z-index: -5px;
+ margin-left: 20px; 
+ margin-top: -5px;
 }
+
+
+
+.note {
+    color:white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 800;
+font-family: 'CooperHewitt-Light', arial;
+    
+}
+
+.nav-link.active {
+   border-bottom:solid 2px  ;
+}
+
+.nav-item a {
+    color:inherit;
+    padding:20px;
+    font-size:1.25rem;
+    font-weight: 550;
+}
+
+strong {
+    font-weight: 800;
+}
+
+
