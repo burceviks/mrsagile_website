@@ -51,11 +51,20 @@ text-transform: uppercase;
 font-family: 'CooperHewitt-Light', arial;
     
 }
+/*
 
 .nav-link.active {
    border-bottom:solid 2px  ;
 }
+*/
 
+.nav-link:active, .nav-link:focus {
+ border-bottom: solid 2px #33CCFF; 
+}
+
+.nav-link:hover {
+    
+}
 .nav-item a {
     color:inherit;
     padding:20px;
