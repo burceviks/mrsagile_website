@@ -1,0 +1,76 @@
+@font-face {
+    font-family: ModernSans-Light;
+    src: url("../fonts/ModernSans-Light.otf") format("opentype");
+    
+    
+    font-family: Trebuchet MS;
+    src: url("../fonts/TREBUCBD.ttf") format("opentype");
+
+}
+
+body {
+  font-family: 'ModernSans-Light', sans-serif;
+  font-size: 1rem;
+  color:white;
+  margin: 0;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+/*    opacity: 0.85;*/
+    
+}
+
+h1:hover, h1:focus {
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+
+.img-header {
+    background-image: url(../images/beach-sea-coast-water-ocean-horizon-1179715-pxhere.com.jpg);
+    background-position:bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 500px;
+
+}
+
+@media (min-width:900px) {
+    .img-header {     height:650px;
+    }
+}
+
+.main-text{
+    text-align: center;
+    padding-top:5%;
+}
+
+
+.btn-main {
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius:20px;
+    background-color: #fff;
+    color:#225576;
+    font-weight: 700;
+    text-align: left;
+    padding:10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top:50px;
+
+    font-family: 'Trebuchet MS',arial;
+}
+
+.btn-main:hover, .btn-main:focus {
+    background-color: #225576;
+    color:#fff;
+}
+.page {
+    width: 90%;
+    margin: 0 auto;
+}
