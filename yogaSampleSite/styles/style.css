@@ -26,8 +26,8 @@ h1{
     margin: 1em 0 0 0;
     padding: 0;
     font-family:'ModernSans-Light', sans-serif; 
-    font-size: 4rem;
-    font-weight: 100;
+    font-size: 4.5rem;
+    font-weight: 50;
     letter-spacing: 5px;
   
     transform: scaleX(1);
@@ -46,17 +46,17 @@ h1:hover, h1:focus {
     -webkit-transform: scaleX(1.1);
 }
 
+.header-note {
+    font-size: 0.875rem;
+}
+
 h2 {
-    border: 1px solid purple;
     font-family:PT Sans Caption Bold; 
     font-size:4rem; 
     color:#225576;
     max-height: 200px;
     max-width: 600px;
     margin:2em -2.5em 0;
-}
-.header-note {
-    font-size: 0.8rem;
 }
 p {
    margin:0;
