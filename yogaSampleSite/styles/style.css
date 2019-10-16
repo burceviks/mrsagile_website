@@ -56,16 +56,19 @@ h1:hover, h1:focus {
 }
 
 h2 {
+    padding: 0;
     font-family:'PT Sans Caption Bold'; 
     font-size:4rem; 
     color:#225576;
-    max-height: 200px;
-    max-width: 600px;
-    margin:2em -2.5em 0;
+/*    max-height: 200px;*/
+    max-width: 30vw;
+/*    min-width: 200px;*/
+    margin:1em -2em 0;
 }
+
 p {
    margin:0;
-    padding: 5px;
+   padding: 5px;
    letter-spacing: 1px;    
   }
 
@@ -107,6 +110,7 @@ p {
   -----SECOND PAGE------
   ----------------------*/
 
+
 .two-side-content {
     margin-top: 18px;
     display: flex;
@@ -114,10 +118,18 @@ p {
     align-items: center;
 }
 
+.second-page-content {
+    display: flex;
+    flex-direction: column;
+    align-content:flex-start;
+    justify-content:flex-start;
+}
+
+
 .second-page-img {
     background-image: url("../images/pic1.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 
     height: 80%;
     width:50%;
@@ -128,14 +140,19 @@ p {
 .second-page-content {
     background-color: #88B8DA;
     width: 50%;
-    height: 100%;
+    height: inherit;
 }
+
 
 .secondary-regular-text, .secondary-strong-text,
 .btn-reverse{
     max-width: 400px;
+    min-width: 100px;
     margin: 1em;    
 }
+
+
+
 
 
 /*----------------------
@@ -150,10 +167,7 @@ p {
     text-decoration: none;
     
     border-radius:20px;
-
-
-    font-family: 'Trebuchet MS',arial;
-    
+    font-family: 'Trebuchet MS',arial;  
     
 }
 
@@ -176,10 +190,12 @@ p {
 
 
 .btn-reverse {
-    padding:1em 3em;
+    padding:1em 0em;
+    max-width:200px;
+    text-align: center;
     background-color: #225576;
     color:#fff;
-    margin-top: 5em;
+/*    margin-top: 2em;*/
     transition: all 250ms ease-in;
     -webkit-transition: all 250ms ease-in;
     transition: all 250ms ease-in, -webkit-transition 250ms ease-in;    
@@ -189,5 +205,36 @@ p {
 .btn-reverse:hover, .btn-reverse:focus {
     background-color: #fff;
     color:#225576;
+
 }
+
+
+@media (max-width:700px)
+{
+    body {
+        font-size:0.75rem;
+    }
+    
+    h2 {
+      font-size: 2.5rem;
+      min-width: 250px;
+      max-height:30vh;
+    }
+    
+   .secondary-strong-text {
+    font-size: 0.85rem;
+    margin:0;
+    }
+    
+    .secondary-regular-text {
+    font-size: 0.85rem;
+    margin:0;
+    }
+    
+    .btn-reverse{
+        margin-bottom: 5px;
+        margin-top:1.25rem;
+        padding: 10px;
+/*        font-size: 0.85rem;*/
+    }
 
